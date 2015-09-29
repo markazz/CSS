@@ -1,0 +1,176 @@
+/*
+
+Date:28/09/2015;
+
+Week 3
+Exercise 21
+
+
+NOTE: FOR FILE 1,2,3 IN HTML
+
+
+
+CSS  Classes/Pseudo Classes, etc 
+
+28 September 2015
+
+Using a code editor, create three HTML files and an external CSS file ‘styles.css’.  The files should be saved in a folder called ‘week3_ex21’ in your ‘websites’ folder.
+
+Validate all files on completion.
+
+Theme of the site: a + b = c
+e.g. hydrogen + oxygen = water, where page1 is about hydrogen, page2 about oxygen and page3 water.
+(worm + hook = fish,  lead + ? = gold, milk + shake = milkshake, football + boot = goal)
+
+You will need at least one image for each of the pages. Source the images online. 
+
+STYLESHEET
+1.	Include the following properties for the p selector; background-color, font-size, font-weight and color.
+
+2.	h2s should have a black background with white text.
+
+3.	Create a class – p.nb - which changes the font-family and the text colour.
+
+4.	Create a class – p.line – which justifies text. Use the ‘text-align’ property in conjunction with the ‘’justify’ value. Justified text ensures a straight margin on both the right and left of a block of text, so you will need a number of lines of text within the paragraph to observe the effect.
+
+5.	Create a class - .bright – which sets a background colour of yellow. 
+ 
+6.	Set values for links
+a:link
+a:visited
+a:hover
+a:active
+
+
+HTML PAGES
+1.	Include <header>, <nav>, <main> and <footer> elements in all HTML files. 
+
+2. All pages should be linked.
+
+3. On each of the HTML pages there should be an instance of a normal <p> tag and a <p> tag using one of the classes. 
+
+4. Each page should also use the <h2> tag.
+
+5. One of the pages should use class3 in conjunction with a <h1> tag, and with a <p> tag.
+
+Extra:
+In at least one instance correctly demonstrate the use of an article element (<article>...</article>).
+Examples found here – http://html5doctor.com/the-article-element/
+
+
+*/
+
+
+
+
+
+
+
+
+a:link{color:red;}
+
+a:visited{color:blue;}
+
+a:hover{color:green;}
+
+a:active{color: orange;}
+
+
+
+
+
+
+
+
+/*
+
+p selector; background-color, font-size, font-weight and color
+
+
+*/
+
+p
+{
+	background-color: brown;
+	font-size: 12px;
+	font-weight: bold;
+	color:grey;		
+}
+
+
+
+
+
+
+/*
+h2s should have a black background with white text.
+*/
+h2
+{
+	background-color: black;
+	color: white;	
+}
+
+
+
+
+
+
+
+
+
+/*
+Create a class – p.nb - which changes the font-family and the text colour.
+*/
+p.nb
+{
+	font-family: arial;
+	color: blue;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+	Create a class - .bright – which sets a background colour of yellow.  
+*/
+
+.bright
+{
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+/*
+class – p.line – which justifies text
+*/
+p.line
+{
+	text-align: justify;
+}
+
+
+
+
+h1.bright
+{
+color: green;
+}
+
+
+p.bright
+{
+color: blue;
+}
