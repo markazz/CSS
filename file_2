@@ -1,0 +1,50 @@
+
+
+
+
+/*
+h1{color:red;}
+
+border: width style color;
+*/
+
+
+h1{border:10px solid red;}
+
+
+h2{border:8px dotted #c39bd3 ;}
+
+
+h3{border: 8px dashed #7fb3d5;}
+
+
+
+
+
+p{border: 7px double #76d7c4;}
+
+
+
+/* for second paragraph*/
+div#second p
+{
+	border:10px dashed red;
+}
+
+
+
+
+/* applying set values for a single border, e.g. only the left border of third paragraph */
+
+div#third p
+{
+  
+  /* first reset the current settings*/
+	border:none;
+	
+	/* then apply your stuff*/
+	border-left:20px solid #f1c40f;
+}
+
+
+
