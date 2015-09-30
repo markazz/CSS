@@ -1,0 +1,96 @@
+
+/*
+ first class:;
+
+The first class specifies padding left and right properties, along with a full border and a background colour.
+
+ Apply this style to a paragraph and a list.
+*/
+
+.first
+{
+padding-left: 10px;
+padding-right: 10px;
+border: 15px solid #99cc33;
+background-color: #cc0000;
+}
+
+
+
+/*
+second class
+
+The second class specifies:
+padding left, right and top properties
+ along with a background colour, a foreground colour and a full border.
+ Apply this style to a h1 and a paragraph
+*/
+
+
+.second
+{
+	padding-left: 5px;
+	padding-right:5px;
+	padding-top:5px;
+	background-color: #ff66cc;
+	color: #663300;
+	border: 12px dashed #ffff66;
+}
+
+
+
+/*
+third class:
+
+The third class specifies margin left and right properties,
+along with a font-family request and a background colour.
+Apply this style to a div and a h2.
+
+*/
+.third
+{
+margin-left: 13px;
+margin-right: 13px;
+font-family: arial, verdana;
+background-color: #3366cc;
+}
+
+
+
+/*
+fourth class:
+
+The fourth class specifies margin left, top and bottom properties,
+ along with a background colour, 
+ a foreground colour 
+ and a full border.  
+Apply this style to a div and a paragraph.
+
+
+*/
+.fourth
+{
+margin-left: 10px;
+margin-top:10px;
+margin-bottom:10px;
+background-color:#00ffff;
+color: #cc00cc;
+border: 8px dotted #00cc00;
+}
+
+
+
+
+
+/*
+EXTRA:
+Create a declaration block for an id selector that addresses both margin and padding. 
+Use this id in your HTML document
+*/
+
+
+div#extra
+{
+	padding: 10px;
+	margin: 12px;
+}
